@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f7fc;
+  color: #333;
+}
+
+nav {
+  background: #1e3a8a;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #93c5fd;
+}
+
+/* PAGE CONTAINER */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container h1 {
+  margin-bottom: 25px;
+  color: #1e3a8a;
+}
+
+/* DASHBOARD STATS */
+
+.stats {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  flex: 1;
+  min-width: 220px;
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+
+.stat-box h2 {
+  font-size: 35px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+/* CARDS */
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* HOME HERO */
+
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 35px;
+  box-shadow: 0 10px 25px rgba(37,99,235,0.25);
+}
+
+.hero h1 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* ABOUT */
+
+.about-box {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  line-height: 1.8;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.event-card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.event-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
