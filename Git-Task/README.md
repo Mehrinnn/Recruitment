@@ -21,7 +21,7 @@ I completed the Git Mastery challenges by performing various Git operations, inc
 ## Screenshots
 
 ### Beginner Completion
-![Beginner Completion](beginner.jpg)
+![Beginner Completion](beginner.jpeg)
 
 ### Advanced Completion
-![Advanced Completion](advanced.jpg)
+![Advanced Completion](advanced.jpeg)
