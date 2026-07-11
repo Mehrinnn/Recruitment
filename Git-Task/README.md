@@ -22,9 +22,9 @@ I completed the Git Mastery challenges by performing various Git operations, inc
 
 ### Beginner Difficulty Completion
 
-![Beginner Completion](screenshots/beginner.png)
+![Beginner Completion](Git-Task/beginner.jpeg)
 
 ### Advanced Difficulty Completion
 
-![Advanced Completion](screenshots/advanced.png)
+![Advanced Completion](Git-Task/advanced.jpeg)
 
