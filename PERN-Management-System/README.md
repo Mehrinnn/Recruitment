@@ -1,69 +1,16 @@
-# PERN Management System
+# React + Vite
 
-## Task Description
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Develop a full-stack management system using PostgreSQL, Express.js, React.js, and Node.js. The application follows an Event Management theme and supports complete CRUD operations through backend APIs.
+Currently, two official plugins are available:
 
-## Implementation
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Technologies Used:
+## React Compiler
 
-* PostgreSQL
-* Express.js
-* React.js
-* Node.js
-* Axios
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Features:
+## Expanding the ESLint configuration
 
-* View Events
-* Add Events
-* Update Events
-* Delete Events
-* Multiple Pages with Routing
-* Frontend and Backend Integration
-* PostgreSQL Database Connectivity
-
-## What I Learned
-
-* Building REST APIs using Express.js
-* Connecting React frontend with backend APIs
-* PostgreSQL database operations
-* CRUD implementation
-* React routing and component management
-* Full-stack application development
-
-## Figma Wireframe
-
-Figma design link is included in the repository.
-
-## Workflow Diagram
-
-![Workflow Diagram](workflow-diagram.jpeg)
-
-## Database Schema
-
-Database schema is included as database_schema.sql.
-
-## Screenshots
-
-### Home Page
-
-![Home Page](home-page.png)
-
-### Events Page
-
-![Events Page](events-page.png)
-
-### Add Event Page
-
-![Add Event Page](add-event-page.png)
-
-### About Page
-
-![About Page](about-page.png)
-
-### Registrations
-
-![Registration](registration.png)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
