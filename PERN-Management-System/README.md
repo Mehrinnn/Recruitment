@@ -49,21 +49,21 @@ Database schema is included as database_schema.sql.
 
 ### Home Page
 
-![Home Page](home-page.jpeg)
+![Home Page](home-page.png)
 
 ### Events Page
 
-![Events Page](events-page.jpeg)
+![Events Page](events-page.png)
 
 ### Add Event Page
 
-![Add Event Page](add-event-page.jpeg)
+![Add Event Page](add-event-page.png)
 
 ### About Page
 
-![About Page](about-page.jpeg)
+![About Page](about-page.png)
 
-### Event Created
+### Registrations
 
-![Event Created](event-created.jpeg)
+![Registration](registration.png)
 
