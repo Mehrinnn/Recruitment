@@ -20,11 +20,8 @@ I completed the Git Mastery challenges by performing various Git operations, inc
 
 ## Screenshots
 
-### Beginner Difficulty Completion
+### Beginner Completion
+![Beginner Completion](beginner.jpg)
 
-![Beginner Completion](Git-Task/beginner.jpeg)
-
-### Advanced Difficulty Completion
-
-![Advanced Completion](Git-Task/advanced.jpeg)
-
+### Advanced Completion
+![Advanced Completion](advanced.jpg)
